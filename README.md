@@ -30,4 +30,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Siyabojewar/DrGViswanathanChallengeTeachersDay/tree/master/0020-valid-parentheses) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1054-complement-of-base-10-integer](https://github.com/Siyabojewar/DrGViswanathanChallengeTeachersDay/tree/master/1054-complement-of-base-10-integer) |
 <!---LeetCode Topics End-->
