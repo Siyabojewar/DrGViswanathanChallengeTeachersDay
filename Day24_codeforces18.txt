@@ -10,16 +10,17 @@ Output
 Output one integer — the amount of dollars that the soldier must borrow from his friend. If he doesn't have to borrow money, output 0.
 
 Sol-
-#include <cstdio>
+#include <iostream>
+using namespace std;
 
 int main() {
     long long k, n, w;
-    scanf("%lld %lld %lld", &k, &n, &w);
+    cin >> k >> n >> w;
     long long total_cost = k * w * (w + 1) / 2;
     if (total_cost <= n) {
-        printf("0\n");
+        cout << 0 << endl;
     } else {
-        printf("%lld\n", total_cost - n);
+        cout << total_cost - n << endl;
     }
     return 0;
 }
